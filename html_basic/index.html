@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        th, td {
+          text-align: left;
+          padding: 8px;
+          border-bottom: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+        th {
+          background-color: #4CAF50;
+          color: white;
+        }
+      </style>
 </head>
 <body>
+    <main>
+        <article>
+    <header>
+        <ul>
+            <li><a href="base_index.html">base_index</a> </li>
+            <li><a href="tweets.html">My tweets</a>"</li>
+        </ul>
+    </header>
+
     <h1>Level 1</h1>
   <p>Imagine you're attending a whimsical Academy of Fictional Creatures, where each creature represents a class in Python. Picture a mischievous Elf, a wise Dragon, and a mysterious Mermaid.
 
@@ -40,5 +67,52 @@ Envision a captivating Mermaid, who possesses both fish-like qualities and human
 
 <p>Check out <a href="tweets.html">my tweets</a></p>
 
+<footer>
+   <p> 
+    Made by Yopa Nelly <a href="https://github.com/YopaNelly/alx_html_css/tree/main" target="_blank">here</a>
+    </p>
+</footer>
+
+</article>
+<aside>
+    <p>
+        Placeholder to add comment thread later.
+    </p>
+</aside>
+<article>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+            <tbody>
+                <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>USA</td>
+                </tr>
+                <tr>
+                    <td>Emily</td>
+                    <td>28</td>
+                    <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <td>Michael</td>
+                        <td>32</td>
+                        <td>Australia</td>
+                        </tr>
+                <tr>
+                            <td>Sophia</td>
+                            <td>21</td>
+                            <td>UK</td>
+                            </tr>
+            </tbody>
+        </thead>
+    </table>
+</article>
+
+    </main>
 </body>
 </html>
