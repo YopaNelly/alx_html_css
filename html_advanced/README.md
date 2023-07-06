@@ -1,3 +1,3 @@
 
 
-This proget is toimplement from scratch a webpage from a designer file.
+This proget is to implement from scratch a webpage from a designer file.
